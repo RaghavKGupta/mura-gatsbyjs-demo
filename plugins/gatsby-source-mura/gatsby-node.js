@@ -31,8 +31,8 @@ exports.sourceNodes = (
   }
 
   // Convert the options object into a query string
-  const baseURL = "https://cwig-dev.icfwebservices.com/"
-  const siteID = "CWIG"
+  const baseURL = "{siteURL with JSON endpoint}"
+  const siteID = "siteID on mura"
 
   // Join apiOptions with the Pixabay API URL
   const apiUrl = `${baseURL}/index.cfm/_api/json/v1/${siteID}/content`
